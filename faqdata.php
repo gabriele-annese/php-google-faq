@@ -1,5 +1,5 @@
-<?php 
-    $faqarray= [
+<?php
+     $faqarray = [
         [
             'domanda' => "Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
 
@@ -34,6 +34,4 @@
             Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account."
         ]
     ];
-
-
 ?>

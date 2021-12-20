@@ -1,4 +1,6 @@
-
+<?php 
+    include './faqdata.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +41,10 @@
 
     <main>
         <div class="container">
-            
+            <?php 
+                foreach($faqarray as $data) { ?>
+                    <h3><?php echo $data['domanda'] ?></h3>
+                <?php } ?>
         </div>
     </main>
 
