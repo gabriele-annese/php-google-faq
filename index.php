@@ -43,7 +43,13 @@
         <div class="container">
             <?php 
                 foreach($faqarray as $data) { ?>
-                    <h3><?php echo $data['domanda'] ?></h3>
+                    <h3 class="domanda"><?php echo $data['domanda'] ?></h3>
+                    <!-- creare array -->
+                    <?php $array_string = explode('<br>', $data['risposta'] )?>
+
+                    <?php foreach($array_string as $text){ ?>
+                        <p class="paragrafo"><?php echo $text?></p>
+                    <?php } ?>
                 <?php } ?>
         </div>
     </main>
